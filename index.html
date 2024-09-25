@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushi Restaurant | Omakase</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Media css -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <header class="header main-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- Left Section (Menu) inside collapsible div -->
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+
+            <!-- Right Section (Button and Contact Info) -->
+            <div class="contact-info">
+              <div>
+                <p class="mb-0">+23 344 434</p>
+              </div>
+              <button class="btn btn-primary">book a table</button>
+            </div>
+          </div>
+
+          <!-- Middle Section (Logo) -->
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="Logo" />
+          </a>
+          <!-- Hamburger Toggle Button (for mobile screens) -->
+          <button class="navbar-toggler" type="button" id="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+
+        <nav class="mobile-menu" id="mobile-menu">
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">+23 344 434</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-primary">Book a table</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Hamburger Toggle Button (for mobile screens) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </header>
+
+      <div class="hero-content">
+        <div class="hero-content-with-image">
+          <div class="hero-content-text">
+            <span>Authentic Sushi</span>
+            <h1>OMAKASE</h1>
+            <p>
+              Experience the finest sushi crafted by our expert chefs, with
+              every piece tailored to your taste.
+            </p>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button class="btn btn-red">Book a Table</button>
+          <button class="btn btn-outline-custom btn-custom">View Menu</button>
+        </div>
+      </div>
+      <div class="social-icons-wrapper">
+        <div class="social-icons">
+          <img
+            src="assets/images/line-straight-social-icons.png"
+            alt="vector-line"
+            class="vector-line"
+          />
+
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="icons-wrapper"
+          >
+            <img src="assets/images/facebook.png" alt="facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="icons-wrapper"
+          >
+            <img src="assets/images/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="icons-wrapper">
+            <img src="assets/images/twitter.png" alt="twitter" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-menu container-spacing-between">
+      <div class="title-heading">
+        <div class="text-container">
+          <span class="sub-heading">OUR MENU</span>
+          <div class="heading mt-2">EXPLORE <span>OUR MENU</span></div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="menu-card">
+              <div class="menu-card-body border-fade">
+                <div class="menu-card-body-bottom-text">Beverage</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="menu-card">
+              <div class="menu-card-body border-fade">
+                <div class="menu-card-body-bottom-text">Food</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="menu-card">
+              <div class="menu-card-body border-fade">
+                <div class="menu-card-body-bottom-text">Desserts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-menu container-spacing-between main-wrapper">
+      <div class="explore-menu-wrapper">
+        <div class="title-heading">
+          <div class="text-container">
+            <span class="sub-heading">OUR MENU</span>
+            <div class="heading mt-2">EXPLORE <span>OUR MENU</span></div>
+          </div>
+        </div>
+        <div class="p-5">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Uramaki (裏巻き寿司)</h3>
+                <p>
+                  Freshly pressed sushi rice with a slice of raw fish or other
+                  toppings served on top...
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Gunkan (軍艦巻き)</h3>
+                <p>
+                  A bowl of vinegared rice topped with various sashimi and
+                  ingredients.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Temaki (手巻き寿司)</h3>
+                <p>
+                  Inside-out rolls with rice on the outside and seaweed inside.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Narezushi (馴れ寿司)</h3>
+                <p>
+                  Hand-rolled sushi in a cone shape with seaweed, rice, and
+                  fillings.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Inari Sushi (稲荷寿司)</h3>
+                <p>Thinly sliced raw fish or seafood, served without rice.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Aburi Sushi (炙り寿司)</h3>
+                <p>
+                  A bowl of vinegared rice topped with various sashimi and
+                  ingredients.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Oshi Sushi (押し寿司)</h3>
+                <p>
+                  Small, ball-shaped sushi often decorated with colorful
+                  toppings.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Sashimi (刺身)</h3>
+                <p>
+                  Fermented sushi, an ancient method of preserving fish with
+                  rice.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Nigiri (握り寿司)</h3>
+                <p>
+                  Small, ball-shaped sushi often decorated with colorful
+                  toppings.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Maki (巻き寿司)</h3>
+                <p>Hand-pressed sushi with fish or seafood atop rice.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Temari (手まり寿司)</h3>
+                <p>
+                  Inside-out rolls with rice on the outside and seaweed inside.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12">
+              <div class="sushi-card">
+                <div class="sushi-card-image-container"></div>
+              </div>
+              <div class="sushi-card-content">
+                <h3>Chirashi (ちらし寿司)</h3>
+                <p>Lightly seared sushi with the top layer of fish torched.</p>
+              </div>
+            </div>
+          </div>
+          <div class="view-more-button d-flex justify-content-center pt-5">
+            <button class="btn btn-outline-custom btn-custom">
+              View Full Menu
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about container-spacing-between">
+      <div class="row">
+        <div class="col-sm0-12 col-md-12 col-lg-12 col-xl-6 col-sm-12">
+          <div class="about-image">
+            <div class="image-container-about">
+              <img
+                src="assets/images/about-vector-horizontal-line.png"
+                alt="Horizontal Line"
+                class="horizontal-line"
+              />
+              <img
+                src="assets/images/about-vector-vertical-line.png"
+                alt="Vertical Line"
+                class="vertical-line"
+              />
+            </div>
+            <img src="assets/images/about-banner.png" alt="about-banner" />
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-sm-12 position-relative"
+        >
+          <div class="about-content">
+            <span class="sub-heading">about the omakase</span>
+            <div class="heading mt-2">
+              CREATING A <span>NEW WORLD OF FLAVORS</span>
+            </div>
+            <div class="about-description">
+              <p>
+                Welcome to Omakase, where the delicate artistry of sushi meets
+                the vibrant flavors of Japan. At Omakase, we are passionate
+                about delivering an authentic and unforgettable dining
+                experience, bringing the essence of traditional Japanese cuisine
+                to every plate.
+              </p>
+              <p>
+                Our master chefs meticulously craft each piece of sushi using
+                the freshest, highest-quality ingredients sourced locally and
+                globally. From the rich, buttery taste of our sashimi to the
+                perfectly balanced rolls, every bite at Omakase is a testament
+                to our commitment to excellence and authenticity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="list-of-menu">
+      <div class="title-heading">
+        <div class="text-container">
+          <span class="sub-heading">LIST OF</span>
+          <div class="heading mt-2">OUR <span> MENU</span></div>
+        </div>
+      </div>
+
+      <div class="menu-wrapper main-wrapper gradient-wrapper row mt-5">
+        <div
+          class="col-md-12 col-lg-4 col-sm-12 d-flex justify-content-end px-0"
+        >
+          <img src="assets/images/menu-list-banner.png" class="img-fluid" />
+        </div>
+        <div class="menu col-md-12 col-lg-8 col-sm-12">
+          <div class="menu-container border-fade">
+            <div class="menu-title">BEVERAGE</div>
+            <div class="menu-items-list-wrapper">
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Plum Wine (梅酒)</span>
+                    <p class="menu-item-description">
+                      Smooth and refined, often enjoyed neat or on the rocks.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$19.75</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Sparkling Wine</span>
+                    <p class="menu-item-description">
+                      Sweet, fruity wine made from plums, served chilled.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$26.05</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Japanese Whiskey</span>
+                    <p class="menu-item-description">
+                      Japanese rice wine, with varieties like Junmai, Ginjo...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$34.90</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Green Tea (緑茶)</span>
+                    <p class="menu-item-description">
+                      Traditional Japanese beverage, often served w...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$38.50</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Shochu (焼酎)</span>
+                    <p class="menu-item-description">
+                      Finely ground green tea powder, served as a concentrated
+                      beverage.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$21.30</div>
+                </div>
+              </div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Beer (ビール)</span>
+                    <p class="menu-item-description">
+                      Non-alcoholic option with a spicy kick that complements
+                      sushi flavors.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$30.80</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">White Wine</span>
+                    <p class="menu-item-description">
+                      Champagne or Prosecco, providing a refreshing contrast.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$26.05</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Matcha (抹茶)</span>
+                    <p class="menu-item-description">
+                      Distilled Japanese spirit, often served on the rocks...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$16.50</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Ginger Ale</span>
+                    <p class="menu-item-description">
+                      Light, crisp beers like Japanese lagers (e.g., Asahi)...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$18.60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-wrapper main-wrapper row mt-5">
+        <div class="menu col-md-12 col-lg-8 col-sm-12">
+          <div class="menu-container border-fade">
+            <div class="menu-title">Food</div>
+            <div class="menu-items-list-wrapper">
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Aburi Sushi (炙り寿司)</span>
+                    <p class="menu-item-description">
+                      A bowl of vinegared rice topped with various sashimi and
+                      ingredients.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$34.90</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Chirashi (ちらし寿司)</span>
+                    <p class="menu-item-description">
+                      Lightly seared sushi with the top layer of fish torched.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$24.75</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Narezushi (馴れ寿司)</span>
+                    <p class="menu-item-description">
+                      Thinly sliced raw fish or seafood, served without rice.
+                    </p>
+                  </div>
+
+                  <div class="menu-item-price">$19.75</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Oshi Sushi (押し寿司)</span>
+                    <p class="menu-item-description">
+                      Sushi wrapped with seaweed, often filled with roe or sea
+                      urchin.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$15.40</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Shochu (焼酎)</span>
+                    <p class="menu-item-description">
+                      Finely ground green tea powder, served as a concentrated
+                      beverage.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$21.30</div>
+                </div>
+              </div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Temaki (手巻き寿司)</span>
+                    <p class="menu-item-description">
+                      Inside-out rolls with rice on the outside and seaweed
+                      inside.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$11.55</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Nigiri (握り寿司)</span>
+                    <p class="menu-item-description">
+                      Pressed sushi in a mold with fish and rice, cut into
+                      pieces.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$22.70</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Maki (巻き寿司)</span>
+                    <p class="menu-item-description">
+                      Hand-rolled sushi in a cone shape with seaweed, rice, and
+                      fillings.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$12.85</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-12 col-lg-4 col-sm-12 d-flex justify-content-end px-0"
+        >
+          <img src="assets/images/menu-list-banner.png" class="img-fluid" />
+        </div>
+      </div>
+      <div class="menu-wrapper main-wrapper row mt-5">
+        <div
+          class="col-md-12 col-lg-4 col-sm-12 d-flex justify-content-end px-0"
+        >
+          <img src="assets/images/menu-list-banner.png" class="img-fluid" />
+        </div>
+        <div class="menu col-md-12 col-lg-8 col-sm-12">
+          <div class="menu-container border-fade">
+            <div class="menu-title">Dessert</div>
+            <div class="menu-items-list-wrapper">
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Anmitsu (あんみつ)</span>
+                    <p class="menu-item-description">
+                      Layered pastry with matcha-flavored cream.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$14.90</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Sesame Balls (ごま団子)</span>
+                    <p class="menu-item-description">
+                      Rich and creamy ice cream flavored with green tea powder.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$39.60</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Dorayaki (どら焼き)</span>
+                    <p class="menu-item-description">
+                      Fresh seasonal fruits like melon, strawberries, or pe...
+                    </p>
+                  </div>
+
+                  <div class="menu-item-price">$10.60</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name"
+                      >Matcha Ice Cream (抹茶アイスクリーム)</span
+                    >
+                    <p class="menu-item-description">
+                      Creamy cheesecake flavored with green tea, bl...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$36.15</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name"
+                      >Mille-Feuille Matcha Cake</span
+                    >
+                    <p class="menu-item-description">
+                      Traditional Japanese dessert with agar jelly, frui....
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$32.20</div>
+                </div>
+              </div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Fruit Platter</span>
+                    <p class="menu-item-description">
+                      Firm jelly made from red bean paste, agar, and sugar,
+                      often served in slices.
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$27.40</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Taiyaki (鯛焼き)</span>
+                    <p class="menu-item-description">
+                      Fish-shaped pastries filled with sweet fillings such as
+                      r...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$15.25</div>
+                </div>
+
+                <div class="menu-item">
+                  <div class="menu-item-details">
+                    <span class="menu-item-name">Yokan (羊羹)</span>
+                    <p class="menu-item-description">
+                      Fried or baked rice balls coated in sesame seeds an...
+                    </p>
+                  </div>
+                  <div class="menu-item-price">$18.60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customer-reviews container-spacing-between">
+      <div class="title-heading">
+        <div class="text-container">
+          <span class="sub-heading">Reviews</span>
+          <div class="heading mt-2">OUR Customers<span> LOVE US</span></div>
+        </div>
+      </div>
+      <div class="carousel d-flex items-center justify-content-center mt-5">
+        <!-- Additional required wrapper -->
+        <div class="carousel-inner d-flex">
+          <!-- Slides -->
+          <div class="carousel-slide">
+            <div class="slide-header">
+              <span class="quotation">
+                <img src="assets/images/quotation.svg"></img>
+              </span>
+              <h2 class="capitalize">Exceptional Sushi and Service</h2>
+            </div>
+            <div class="slide-description d-flex flex-col gap-1">
+              <p>
+                "Dining at Omakase was an unforgettable experience. The chefs' expertise shines through in each piece of sushi, from the delicate.
+              </p>
+              <div class="rating d-flex justify-content-between">
+                <span class="stars">★★★★★</span>
+                <span class="reviewer-name">- David S.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide active">
+            <div class="slide-header">
+              <span class="quotation">
+                <img src="assets/images/quotation.svg"></img>
+              </span>
+              <h2 class="capitalize">A Truly Authentic Experience</h2>
+            </div>
+            <div class="slide-description d-flex flex-col gap-1">
+              <p>
+                "Omakase exceeded all my expectations. The attention to detail in every dish was impeccable, and the flavors were simply outstanding. 
+              </p>
+              <div class="rating d-flex justify-content-between">
+                <span class="stars">★★★★★</span>
+                <span class="reviewer-name">— Emily R.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="slide-header">
+              <span class="quotation">
+                <img src="assets/images/quotation.svg"></img>
+              </span>
+              <h2 class="capitalize">Exceptional Sushi and Service</h2>
+            </div>
+            <div class="slide-description d-flex flex-col gap-1">
+              <p>
+                "Dining at Omakase was an unforgettable experience. The chefs' expertise shines through in each piece of sushi, from the delicate.
+              </p>
+              <div class="rating d-flex justify-content-between">
+                <span class="stars">★★★★★</span>
+                <span class="reviewer-name">— Emily R.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-reserve container-spacing-between gradient-wrapper">
+      <div class="title-heading">
+        <div class="text-container">
+          <span class="sub-heading">Contact Us</span>
+          <div class="heading mt-2">Reserve now</div>
+        </div>
+      </div>
+
+      <div class="row container-wrapper mt-5">
+        <div class="col-md-12 col-lg-6 contact-us">
+          <div class="title">Contact Us</div>
+          <div class="contact-details">
+            <div class="contact-details-item">
+              <span class="label">Phone</span>
+              <p class="value">+23 344 342</p>
+            </div>
+
+            <div class="contact-details-item">
+              <span class="label">Email</span>
+              <p class="value">sushisusantee@mail.com</p>
+            </div>
+
+            <div class="contact-details-item">
+              <span class="label">Address</span>
+              <p class="value">
+                44 Blue spring arizona, Djogjakarta, VA 234145
+              </p>
+            </div>
+
+            <div class="contact-details-item">
+              <span class="label">Opening Hours</span>
+              <p class="value">Sunday - Saturday 10am - 10pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 reserve-now">
+          <div class="title">Reserve Now</div>
+          <div class="form-container">
+            <form>
+              <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" placeholder="Clark" />
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" placeholder="Kent" />
+              </div>
+
+              <div class="form-group">
+                <label for="datetime">Date and Time</label>
+                <input
+                  type="text"
+                  id="datetime"
+                  placeholder="12 July 2024 - 14:00"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="notes">Notes</label>
+                <input
+                  type="text"
+                  id="notes"
+                  placeholder="Enter your messages here"
+                />
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="btn-next">Next</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer block-spacing">
+      <div class="footer-logo-links">
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="Sushi Logo" />
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <span class="footer-phone">+23 344 434</span>
+        <button class="btn btn-primary">Book a Table</button>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
